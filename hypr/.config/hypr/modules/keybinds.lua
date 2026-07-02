@@ -28,15 +28,15 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 
-hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("wlogout"))
+hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("pgrep wlogout && pkill wlogout || wlogout"))
 hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("zen-browser https://www.youtube.com"))
 hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("zen-browser https://www.instagram.com"))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/rice/.local/bin/wallset"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("wallset"))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("~/.local/bin/open-vesktop.fish"))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("~/.local/bin/open-spotify.fish"))
 
 
-hl.bind(mainMod .. " + T", hl.dsp.layout("togglesplit"))
+-- hl.bind(mainMod .. " + T", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + ALT + L", hl.dsp.layout("splitratio +0.1"))
 hl.bind(mainMod .. " + ALT + H", hl.dsp.layout("splitratio -0.1"))
 

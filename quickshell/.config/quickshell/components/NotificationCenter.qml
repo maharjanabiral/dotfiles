@@ -10,7 +10,7 @@ Item {
     property bool doNotDisturb: false
     property bool isHovered: false
     property bool isPressed: false
-    readonly property color accentColor: doNotDisturb ? "#f38ba8" : notifCount > 0 ? "#cdd6f4" : "#6c7086"
+    readonly property color accentColor: doNotDisturb ? "#f38ba8" : notifCount > 0 ? "#cdd6f4" : Colors.primary
     readonly property color pillColor: isPressed ? "#2a2a3e" : isHovered ? "#1e1e30" : Colors.background
 
     implicitWidth: pill.width

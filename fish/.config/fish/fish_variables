@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
-SETUVAR --export STARSHIP_CONFIG:/home/rice/\x2econfig/starship/starship\x2etoml
+SETUVAR --export STARSHIP_CONFIG:/home/peekabooo/\x2econfig/starship/starship\x2etoml
 SETUVAR __fish_initialized:4300
-SETUVAR --export fish_user_paths:/home/rice/\x2espicetify\x1e/home/rice/\x2elocal/bin
+SETUVAR --export fish_user_paths:/home/peekabooo/\x2espicetify\x1e/home/peekabooo/\x2elocal/bin

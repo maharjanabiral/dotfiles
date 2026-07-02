@@ -22,6 +22,10 @@ function s
     yay -Ss $argv[1]
 end
 
+function r
+    yay -Rns $argv[1]
+end
+
 function q
     yay -Q $argv[1]
 end

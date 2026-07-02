@@ -6,3 +6,5 @@ source ~/.config/fish/functions/user-config.fish
 end
 
 starship init fish | source
+
+fish_add_path /home/peekabooo/.spicetify

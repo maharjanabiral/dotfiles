@@ -1,5 +1,5 @@
 return {
-    image = "/home/rice/Pictures/Wallpapers/escape_velocity.jpg",
+    image = "/home/peekabooo/Pictures/Wallpapers/escape_velocity.jpg",
 
     background = "0xff131318",
 

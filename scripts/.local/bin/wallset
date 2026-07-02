@@ -10,7 +10,7 @@ SELECTED=$(
 )
 
 if [ -n "$SELECTED" ]; then
-    /home/rice/.local/bin/wallset-backend "$WALL_DIR/$SELECTED"
+    /home/peekabooo/.local/bin/wallset-backend "$WALL_DIR/$SELECTED"
 fi
 
 cd "$CWD" || exit

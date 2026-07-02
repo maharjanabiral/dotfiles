@@ -32,12 +32,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    name  = "rofi-close",
-    match = { class = "^(rofi)$" },
-    float = true,
-})
-
-hl.window_rule({
     name = "discord-special",
     match = {
         class = "Discord|discord|vesktop",
@@ -51,4 +45,20 @@ hl.window_rule({
         class = "Spotify",
     },
     workspace = "special:spotify",
+})
+
+hl.layer_rule({
+    match = {
+        class = "wlogout",
+    },
+    blur = true,
+})
+
+
+hl.layer_rule({
+    match = {
+        namespace = "quickshell",
+    },
+    blur = true,
+    ignore_alpha = 0.8,
 })
