@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <path_to_image>"
+    exit 1
+fi
+
+IMAGE="$1"
+
+awww img "$IMAGE" --transition-fps 165 --transition-step 100 --transition-type any
+
+matugen image "$IMAGE" --source-color-index 1
+
+hyprctl reload

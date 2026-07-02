@@ -1,0 +1,57 @@
+* {
+    background-image: none;
+    box-shadow: none;
+}
+
+window {
+    background-color: rgba(17, 17, 27, 0.45);
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    margin: 22px;
+
+    background-color: rgba(49, 50, 68, 0.25);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 42%;
+
+    color: transparent;
+}
+
+button:hover {
+    background-color: rgba(137,180,250,0.18);
+}
+
+button:focus,
+button:active {
+    background-color: rgba(137,180,250,0.25);
+}
+
+
+
+#lock {
+    background-image: url("/home/rice/.config/wlogout/icons/lock_white.png");
+}
+
+#logout {
+    background-image: url("/home/rice/.config/wlogout/icons/logout_white.png");
+}
+
+#suspend {
+    background-image: url("/home/rice/.config/wlogout/icons/suspend_white.png");
+}
+
+#hibernate { 
+     background-image: url("/home/rice/.config/wlogout/icons/hibernate_white.png"); 
+} 
+
+#shutdown {
+    background-image: url("/home/rice/.config/wlogout/icons/shutdown_white.png");
+}
+
+#reboot {
+    background-image: url("/home/rice/.config/wlogout/icons/reboot_white.png");
+}

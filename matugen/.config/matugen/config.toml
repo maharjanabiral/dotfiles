@@ -1,0 +1,17 @@
+[config]
+[templates.kitty]
+input_path = '~/dotfiles/matugen/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/themes/Matugen.conf'
+post_hook = "kitty +kitten themes --reload-in=all Matugen"
+
+[templates.hyprland]
+input_path = '~/dotfiles/matugen/.config/matugen/templates/hyprland-colors.lua'
+output_path = '~/.config/hypr/modules/colors.lua'
+
+[templates.rofi]
+input_path = '~/dotfiles/matugen/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/rofi-colors.rasi'
+
+[templates.quickshell]
+input_path = "~/dotfiles/matugen/.config/matugen/templates/Colors.qml.jinja"
+output_path = "~/.config/quickshell/themes/Colors.qml"

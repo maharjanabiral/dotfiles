@@ -1,0 +1,68 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": null,
+
+  "display": {
+    "separator": "  ",
+    "color": "white"
+  },
+
+  "modules": [
+    "break",
+
+    {
+      "type": "custom",
+      "key": "╭──────────────────────────────────╮"
+    },
+
+    {
+      "type": "os",
+      "key": "│ 󰻀 distro",
+      "format": "{pretty-name}"
+    },
+
+    {
+      "type": "kernel",
+      "key": "│  kernel",
+      "format": "{release}"
+    }, 
+
+    {
+      "type": "shell",
+      "key": "│  shell",
+      "format": "{pretty-name}"
+    },
+
+    {
+      "type": "memory",
+      "key": "│  memory",
+      "format": "{used} / {total}"
+    },
+
+    {
+      "type": "packages",
+      "key": "│  pkgs",
+      "format": "{all}"
+    },
+
+    {
+      "type": "command",
+      "key": "│  user",
+      "text": "whoami"
+    },
+
+    {
+      "type": "command",
+      "key": "│  host",
+      "text": "hostname"
+    },
+
+    {
+      "type": "custom",
+      "key": "╰──────────────────────────────────╯"
+    },
+
+    "break"
+  ]
+}

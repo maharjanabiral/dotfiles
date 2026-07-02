@@ -1,0 +1,35 @@
+format = """
+$directory\
+$fill\
+$python\
+$cmd_duration\
+$line_break\
+$character
+"""
+
+[fill]
+symbol = ' '
+
+
+[python]
+style = 'green'
+symbol = ' '
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+pyenv_version_name = true
+pyenv_prefix = ''
+
+
+[palettes.onedark]
+dark_blue='#61afef'
+blue='#56b6c2'
+red='#e06c75'
+green='#98c379'
+purple='#c678dd'
+cyan='#56b6c2'
+orange='#be5046'
+yellow='#e5c07b'
+gray='#828997'
+white ='#abb2bf'
+black='#2c323c'
+
+palette = 'onedark'

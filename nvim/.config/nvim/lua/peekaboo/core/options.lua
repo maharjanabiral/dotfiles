@@ -1,0 +1,19 @@
+vim.wo.number = true
+vim.wo.relativenumber = true
+vim.o.clipboard = 'unnamedplus'
+vim.o.wrap = true
+vim.o.linebreak = true
+vim.o.autoindent = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.o.expandtab = true
+vim.o.cursorline = false -- highlight the current line
+vim.o.splitbelow = true -- force all horizontal splits to go below current window
+vim.o.splitright = true -- force all vertical splits to go to the right of current window
+vim.o.swapfile = false -- creates a swapfile
+vim.o.smartindent = true -- make indenting smarter again
+vim.o.showmode = false -- we don't need to see things like -- INSERT -- anymore
+vim.opt.fillchars = {eob = " "}

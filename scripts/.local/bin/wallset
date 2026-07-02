@@ -1,0 +1,16 @@
+#!/bin/bash
+WALL_DIR="$HOME/Pictures/Wallpapers"
+CWD="$(pwd)"
+cd "$WALL_DIR" || exit
+
+SELECTED=$(
+    for a in *.jpg *.png; do
+        printf "%s\0icon\x1f%s/%s\n" "$a" "$WALL_DIR" "$a"
+    done | rofi -dmenu -p "Wallpaper: " -show-icons
+)
+
+if [ -n "$SELECTED" ]; then
+    /home/rice/.local/bin/wallset-backend "$WALL_DIR/$SELECTED"
+fi
+
+cd "$CWD" || exit
